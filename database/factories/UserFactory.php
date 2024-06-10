@@ -25,9 +25,9 @@ class UserFactory extends Factory
     {
         // Create Default User
         return [
-            'first_name' => 'Nisar Ahmad',
-            'last_name' => 'Sahil',
-            'email' => 'nisra.ahmad.sahil@example.com',
+            'first_name' => 'Sayed Ahmad',
+            'last_name' => 'Fida',
+            'email' => 'admin@example.com',
             'email_verified_at' => now(),
             'password' => Hash::make('12345678'),
             'remember_token' => Str::random(10),
