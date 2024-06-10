@@ -24,12 +24,10 @@ class UserFactory extends Factory
     public function definition(): array
     {
         // Create Default User
-        // Create Default User
         return [
             'first_name' => 'Nisar Ahmad',
             'last_name' => 'Sahil',
             'email' => 'nisra.ahmad.sahil@example.com',
-            'type' => 'SUPER-ADMIN',
             'email_verified_at' => now(),
             'password' => Hash::make('12345678'),
             'remember_token' => Str::random(10),
