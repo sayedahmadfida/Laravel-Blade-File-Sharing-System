@@ -1,0 +1,102 @@
+
+.body-home , .body-login{
+    background: url(../Image/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.black-fill{
+    background: rgba(0,0,0, 0.7);
+    min-height: 100vh;
+}
+
+#homeNav{
+    background: rgba(255,255,255, 0.5) !important;
+}
+
+.welcome-text img{
+    width: 300px;
+    border-radius: 150px;
+    background: rgba(255,255,255, 0.5) ;
+
+}
+.welcome-text {
+    min-height: 80vh;
+    
+
+}
+.welcome-text h4{
+    color: #eee;
+    font-size: 51px;
+    font-family: "Lobster", sans-serif;
+
+    
+}
+
+.welcome-text p{
+    color: #222;
+    background: rgba(255,255,255, 0.5) ;
+    padding: 5px;
+    border-radius: 4px;   
+}
+
+#About {
+    min-height: 100vh;
+}
+
+#About .card-1{
+    max-width: 600px;
+    width: 90%;
+    background: rgba(255,255,255, 0.5) ;
+    padding: 20px;
+    
+}
+
+
+#About .card-1 h5{
+    font-family: "Lobster", sans-serif;
+    font-size: 28px;
+  
+}
+
+#Contact {
+    min-height: 100vh;
+}
+#Contact form{
+    max-width: 600px;
+    width: 90%;
+    background: rgba(255,255,255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+
+}
+#Contact form h3{
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+.login{
+    max-width: 500px;
+    width: 90%;
+    background: rgba(255,255,255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login h3{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+/* my own idea */
+
+.text-center img{
+    border-radius: 150px;
+}

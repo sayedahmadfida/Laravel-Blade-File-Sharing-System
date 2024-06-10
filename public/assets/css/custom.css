@@ -1,0 +1,89 @@
+
+.pagination-parent svg{
+    width: 20px;
+  }
+  .pagination-parent > nav > .flex{
+    display: none;
+  }
+.pagination-parent a{
+    background-color: #454d55 !important;
+    color: whitesmoke !important;
+    border: none  !important;
+}
+
+.error{
+    color: red;
+}
+.create-btn{
+  cursor: pointer;
+}
+
+table td{
+  padding: 5px !important;
+}
+
+
+a{
+  color: whitesmoke !important;
+}
+
+.active{
+  background-color: #454d55;
+}
+
+.board-files{
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.board-files svg{
+  font-size: 100px !important;
+  color: #f4b208;
+}
+.pdf-file svg{
+  font-size: 70px !important;
+  color: #f4b208;
+  margin-top: 20px;
+}
+.files-icon img{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.color-trans{
+  background-color: #ff000000;
+}
+.color-trans .card{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.folders{
+  min-height: 140px;
+  background-color: #7f7f7f2b;
+  border-radius: 10px;
+}
+.btn-action{
+  position: absolute;
+  right: 15px;
+  top: -30px;
+}
+.action-element{
+  font-size: 40px;
+}
+.action-menu svg{
+  margin: 0px 20px;
+}
+.action-menu a {
+  display: block;
+}
+.privacy p {
+  margin: 0px !important;
+    padding: 0px !important;
+    font-size: 10px;
+    position: absolute;
+    top: 3px;
+    left: 15px;
+}
+.widget-user-2 .widget-user-desc, .widget-user-2 .widget-user-username {
+  margin-left: 5px;
+}
