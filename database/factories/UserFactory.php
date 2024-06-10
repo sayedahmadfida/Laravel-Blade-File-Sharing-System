@@ -23,6 +23,7 @@ class UserFactory extends Factory
      */
     public function definition(): array
     {
+        // Create Default User
         return [
             'first_name' => 'Nisar Ahmad',
             'last_name' => 'Sahil',
