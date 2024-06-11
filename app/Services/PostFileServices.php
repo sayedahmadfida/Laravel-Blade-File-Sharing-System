@@ -21,7 +21,7 @@ class PostFileServices
       
         foreach ($files as $file) {
             $extension = $file->getClientOriginalExtension();
-            $fileName = rand(1, 10000).'-Nisar-Ahmad-Sahil-'.$file->getClientOriginalName();
+            $fileName = rand(1, 10000).'-Sayed-Ahmad-Fida-'.$file->getClientOriginalName();
             $file->storeAs('public/uploaded_files', $fileName);
 
             PostFile::create([
