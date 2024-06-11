@@ -9,7 +9,8 @@
 - php artisan serve
 - Open the browser and type localhost:8000
 - Username: nisra.ahmad.sahil@example.com
-- Password: 12345678.
+- Password: 12345678
+- PHP version >= 8.3.7
 - ## Rigestration
 ![Alt text](https://raw.githubusercontent.com/sayedahmadfida/images/d2471f285ef3c102f184f65b2b4421eb18b735f2/Register.png)
 - ## Login
