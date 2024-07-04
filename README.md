@@ -8,7 +8,7 @@
 - php artisan migrate:fresh --seed
 - php artisan serve
 - Open the browser and type localhost:8000
-- Username: nisra.ahmad.sahil@example.com
+- Username: admin@example.com
 - Password: 12345678
 - PHP version >= 8.3.7
 - ## Rigestration
